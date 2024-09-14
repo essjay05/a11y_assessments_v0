@@ -48,13 +48,6 @@ const Footer = () => {
           rel="noreferrer noopener nofollow">
           <button style={{ color: `${textColor}` }} className="px-8 py-2 border ml-auto">Book Now</button>
         </Link>
-        {/* <Link
-          href="https://portal.spiro.media/order/joatl/residential"
-          target="_blank"
-          rel="noreferrer noopener nofollow"
-          className="p-8 text-center hidden sm:flex"
-          legacyBehavior>
-        </Link> */}
       </footer>
     </div>
   );

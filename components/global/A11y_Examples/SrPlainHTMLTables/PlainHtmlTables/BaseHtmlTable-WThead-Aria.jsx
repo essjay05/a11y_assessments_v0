@@ -1,4 +1,4 @@
-export const BaseHtmlTableWAria = () => {
+export const BaseHtmlTableWTheadAndAria = () => {
   return (
     <>
       <h2>Base HTML Table with Aria Roles</h2>

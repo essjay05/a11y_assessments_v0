@@ -1,7 +1,7 @@
-import { BaseHtmlTable } from "./BaseHtmlTable";
-import { BaseHtmlTableWAria } from "./BaseHtmlTableWAria";
+import { BaseHtmlTableWThead } from "./BaseHtmlTable-WThead";
+import { BaseHtmlTableWTheadAndAria } from "./BaseHtmlTable-WThead-Aria";
 
 export const ExamplesData = [
-  BaseHtmlTable,
-  BaseHtmlTableWAria
+  BaseHtmlTableWThead,
+  BaseHtmlTableWTheadAndAria
 ];

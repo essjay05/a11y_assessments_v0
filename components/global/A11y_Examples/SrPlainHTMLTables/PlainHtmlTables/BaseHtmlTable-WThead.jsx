@@ -1,4 +1,4 @@
-export const BaseHtmlTable = () => {
+export const BaseHtmlTableWThead = () => {
   return (
     <>
       <h2>Base HTML Table</h2>

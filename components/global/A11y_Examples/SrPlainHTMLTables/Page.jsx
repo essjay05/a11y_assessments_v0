@@ -7,7 +7,9 @@ export const Page = () => {
         <h1>Plain HTML Table Examples</h1>
         {/* Loop over HTML Table Examples */}
         {ExamplesData.map((Example, index) => (
-          <Example key={index} />
+          <div className="my-12" key={index} >
+            <Example/>
+          </div>
         ))}
       </main>
     </>

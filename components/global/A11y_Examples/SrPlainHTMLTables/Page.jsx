@@ -1,4 +1,5 @@
 import { ExamplesData } from "./PlainHtmlTables/ExamplesData";
+import './PlainHtmlTables/TableStyles.css';
 
 export const Page = () => { 
   return (

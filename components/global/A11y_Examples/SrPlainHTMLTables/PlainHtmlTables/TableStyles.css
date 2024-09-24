@@ -1,0 +1,16 @@
+table {
+  text-align: center;
+}
+
+th, td {
+  padding: .75rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.th-row {
+  font-weight: 600;
+}

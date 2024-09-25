@@ -1,29 +1,29 @@
 export const BaseHtmlTableNoTheadPlain = () => {
   return (
     <>
-      <h2>5*. Table no thead/tbody (NO aria-roles AND NO scopes)</h2>
-    <table>
-      <tr>
-        <th>Date</th>
-        <th>Event</th>
-        <th>Venue</th>
-      </tr>
-      <tr>
-        <td>24 March</td>
-        <td>The What</td>
-        <td>Main Hall</td>
-      </tr>
-      <tr>
-        <td>12 February</td>
-        <td>Waltz with Strauss</td>
-        <td>Main Hall</td>
-      </tr>
-      <tr>
-        <td>14 April</td>
-        <td>The Obelisks</td>
-        <td>West Wing</td>
-      </tr>
-    </table>
+      <h2>6*. Table no thead/tbody (NO aria-roles AND WITH scopes)</h2>
+      <table>
+        <tr>
+          <th scope="col">Date</th>
+          <th scope="col">Event</th>
+          <th scope="col">Venue</th>
+        </tr>
+        <tr>
+          <td>24 March</td>
+          <td>The What</td>
+          <td>Main Hall</td>
+        </tr>
+        <tr>
+          <td>12 February</td>
+          <td>Waltz with Strauss</td>
+          <td>West Wing</td>
+        </tr>
+        <tr>
+          <td>14 April</td>
+          <td>The Obelisks</td>
+          <td>Main Hall</td>
+        </tr>
+      </table>
     </>
   )
 }

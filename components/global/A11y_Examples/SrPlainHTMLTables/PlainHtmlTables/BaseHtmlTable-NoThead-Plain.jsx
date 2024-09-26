@@ -2,7 +2,7 @@ export const BaseHtmlTableNoTheadPlain = () => {
   return (
     <>
       <h2>6*. Table no thead/tbody (NO aria-roles AND WITH scopes)</h2>
-      <table>
+      <table id="BaseHtmlTableNoTheadPlain">
         <tr>
           <th scope="col">Date</th>
           <th scope="col">Event</th>

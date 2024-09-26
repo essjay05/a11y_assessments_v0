@@ -3,7 +3,7 @@ export const BaseHtmlTableWTheadAndAria = () => {
     <>
       <h2>Base HTML Table with Aria Roles</h2>
       <h3>Plain HTML table. No aria roles/attributes and no scopes applied.</h3>
-      <table role="table">
+      <table role="table" id="BaseHtmlTableWTheadAndAria">
         <thead role="rowgroup">
           <tr role="row">
             <th role="columnheader">Date</th>

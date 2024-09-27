@@ -1,8 +1,8 @@
-export const NoTheadWRoles = () => {
+export const BasicNoTheadWRoles = () => {
   return (
     <>
       <h2>5*. Table no thead/tbody (with aria-roles AND NO scopes)</h2>
-      <table>
+      <table id="BasicNoTheadWRoles">
         <tr>
           <th>Date</th>
           <th>Event</th>

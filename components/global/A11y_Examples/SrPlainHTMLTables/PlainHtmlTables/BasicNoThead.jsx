@@ -1,8 +1,8 @@
-export const BaseHtmlTableNoTheadPlain = () => {
+export const BasicNoThead = () => {
   return (
     <>
       <h2>6*. Table no thead/tbody (NO aria-roles AND WITH scopes)</h2>
-      <table id="BaseHtmlTableNoTheadPlain">
+      <table id="BasicNoThead">
         <tr>
           <th scope="col">Date</th>
           <th scope="col">Event</th>

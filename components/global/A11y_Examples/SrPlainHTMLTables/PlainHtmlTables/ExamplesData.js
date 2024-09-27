@@ -1,14 +1,13 @@
-import { BaseHtmlTableNoTheadPlain } from "./BaseHtmlTable-NoTheadWRoles";
-import { BaseHtmlTableWThead } from "./BaseHtmlTable-WThead";
-import { BaseHtmlTableWTheadAndAria } from "./BaseHtmlTable-WThead-Aria";
-import { BaseHtmlTableWTheadAndScope } from "./BaseHtmlTable-WThead-Scope";
-import { BaseHtmlTableWTheadAndAriaAndScopes } from "./BaseHtmlTable-WThead-Aria&Scope";
-import { NoTheadWRoles } from "./NoTheadWRoles";
+import { BasicNoThead } from "./BasicNoThead";
+import { BasicWThead } from "./BasicWThead";
+import { BasicWTheadWAria } from "./BasicWTheadWAria";
+import { BasicWTheadWScope } from "./BasicWTheadWScope";
+import { BasicWTheadWAriaWScope } from "./BasicWTheadWAriaWScope";
 
 export const ExamplesData = [
-  BaseHtmlTableWThead,
-  BaseHtmlTableWTheadAndAria,
-  BaseHtmlTableWTheadAndScope,
-  BaseHtmlTableWTheadAndAriaAndScopes,
-  BaseHtmlTableNoTheadPlain
+  BasicWThead,
+  BasicWTheadWAria,
+  BasicWTheadWScope,
+  BasicWTheadWAriaWScope,
+  BasicNoThead
 ];

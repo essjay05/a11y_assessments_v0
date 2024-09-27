@@ -1,9 +1,9 @@
-export const BaseHtmlTableWTheadAndAria = () => {
+export const BasicWTheadWAria = () => {
   return (
     <>
       <h2>Base HTML Table with Aria Roles</h2>
-      <h3>Plain HTML table. No aria roles/attributes and no scopes applied.</h3>
-      <table role="table" id="BaseHtmlTableWTheadAndAria">
+      <h3>Plain HTML table with thead and tbody tags. With aria roles and no scopes applied.</h3>
+      <table role="table" id="BasicWTheadWAria">
         <thead role="rowgroup">
           <tr role="row">
             <th role="columnheader">Date</th>

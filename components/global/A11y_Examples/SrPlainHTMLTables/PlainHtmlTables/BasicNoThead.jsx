@@ -1,12 +1,12 @@
 export const BasicNoThead = () => {
   return (
     <>
-      <h2>6*. Table no thead/tbody (NO aria-roles AND WITH scopes)</h2>
+      <h2>6*. Table no thead/tbody (NO aria-roles AND NO scopes)</h2>
       <table id="BasicNoThead">
         <tr>
-          <th scope="col">Date</th>
-          <th scope="col">Event</th>
-          <th scope="col">Venue</th>
+          <th>Date</th>
+          <th>Event</th>
+          <th>Venue</th>
         </tr>
         <tr>
           <td>24 March</td>

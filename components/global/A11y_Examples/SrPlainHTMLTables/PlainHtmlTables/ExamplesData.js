@@ -4,6 +4,7 @@ import { BasicWTheadWAria } from "./BasicWTheadWAria";
 import { BasicWTheadWScope } from "./BasicWTheadWScope";
 import { BasicWTheadWAriaWScope } from "./BasicWTheadWAriaWScope";
 import { BasicNoTheadWRoles } from "./BasicNoTheadWRoles";
+import { BasicNoTheadWScope } from "./BasicNoTheadWScope";
 
 export const ExamplesData = [
   BasicWThead,
@@ -11,5 +12,6 @@ export const ExamplesData = [
   BasicWTheadWScope,
   BasicWTheadWAriaWScope,
   BasicNoThead,
-  BasicNoTheadWRoles
+  BasicNoTheadWRoles,
+  BasicNoTheadWScope
 ];

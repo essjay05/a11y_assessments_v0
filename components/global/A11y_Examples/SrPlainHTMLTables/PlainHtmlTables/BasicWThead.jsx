@@ -1,7 +1,7 @@
 export const BasicWThead = () => {
   return (
     <>
-      <h2>Base HTML Table</h2>
+      <h2>Base HTML Table with thead & tbody tags</h2>
       <h3>Plain HTML table. No aria roles/attributes and no scopes applied.</h3>
       <table id="BasicWThead">
         <thead>

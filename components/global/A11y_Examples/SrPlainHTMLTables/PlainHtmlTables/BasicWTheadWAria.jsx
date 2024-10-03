@@ -1,7 +1,7 @@
 export const BasicWTheadWAria = () => {
   return (
     <>
-      <h2>Base HTML Table with Aria Roles</h2>
+      <h2>Base HTML Table using thead/tbody, with Aria Roles</h2>
       <h3>Plain HTML table with thead and tbody tags. With aria roles and no scopes applied.</h3>
       <table role="table" id="BasicWTheadWAria">
         <thead role="rowgroup">

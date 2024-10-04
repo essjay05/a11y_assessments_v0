@@ -1,7 +1,8 @@
 export const BasicNoThead = () => {
   return (
     <>
-      <h2>6*. Table no thead/tbody (NO aria-roles AND NO scopes)</h2>
+      <h2>Table no thead/tbody (NO aria-roles AND NO scopes)</h2>
+      <p>Basic HTML table without thead/tbody tags, no aria-roles, and no scopes.</p>
       <table id="BasicNoThead">
         <tr>
           <th>Date</th>

@@ -1,7 +1,8 @@
 export const BasicNoTheadWScope = () => {
   return (
     <>
-      <h2>6*. Table no thead/tbody (NO aria-roles AND WITH scopes)</h2>
+      <h2>Table no thead/tbody (NO aria-roles AND WITH scopes)</h2>
+      <p>Basic HTML table that does NOT use thead/tbody tags. No aria-roles, but it does have scopes.</p>
       <table id="BasicNoTheadWScope">
         <tr>
           <th scope="col">Date</th>

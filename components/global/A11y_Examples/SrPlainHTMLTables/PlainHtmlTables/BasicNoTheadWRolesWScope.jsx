@@ -2,6 +2,7 @@ export const BasicNoTheadWRolesWScope = () => {
   return (
     <>
       <h2>Table no thead/tbody (with aria-roles AND with scopes)</h2>
+      <p>Basic HTML table without thead/tbody. Using both aria-roles AND scopes.</p>
       <table id="BasicNoTheadWRolesWScope" role="table">
         <tr role="row">
           <th role="columnheader" scope="col">Date</th>

@@ -2,6 +2,7 @@ export const BasicNoThead = () => {
   return (
     <>
       <h2>Div/span table using Aria roles With Scopes</h2>
+      <p>Table which is created only using div and span tags with aria-roles indicating a table. Scopes are added.</p>
       <div role="table">
         <div role="row" class="th-row">
           <span role="columheader" scope="col">Date</span>

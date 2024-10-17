@@ -1,4 +1,4 @@
-export const BasicNoThead = () => {
+export const DivTableWRolesWScopes = () => {
   return (
     <>
       <h2>Div/span table using Aria roles With Scopes</h2>

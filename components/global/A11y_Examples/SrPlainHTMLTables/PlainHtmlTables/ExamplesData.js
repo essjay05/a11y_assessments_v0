@@ -6,6 +6,7 @@ import { BasicWTheadWAriaWScope } from "./BasicWTheadWAriaWScope";
 import { BasicNoTheadWRoles } from "./BasicNoTheadWRoles";
 import { BasicNoTheadWScope } from "./BasicNoTheadWScope";
 import { BasicNoTheadWRolesWScope } from "./BasicNoTheadWRolesWScope";
+import { DivTableWRolesWScopes } from "./DivTableWRolesWScopes";
 
 export const ExamplesData = [
   BasicWThead,
@@ -15,5 +16,6 @@ export const ExamplesData = [
   BasicNoThead,
   BasicNoTheadWRoles,
   BasicNoTheadWScope,
-  BasicNoTheadWRolesWScope
+  BasicNoTheadWRolesWScope,
+  DivTableWRolesWScopes
 ];
